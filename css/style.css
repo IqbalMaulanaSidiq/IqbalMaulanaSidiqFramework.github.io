@@ -1,0 +1,56 @@
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #212121;
+  color: white;
+}
+#projects {
+  background-color: #212121;
+}
+#contact {
+  background-color: #212121;
+}
+.text-color {
+  color: white;
+}
+@font-face {
+  font-family: 'Asus Rog';
+  src: url('font/AsusRog-Regular.ttf') format('truetype');
+}
+.font-tambahan {
+  font-family: 'Asus Rog';
+  color: #28a745;
+}
+
+.jarak {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.about {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+h2 {
+  font-family: 'Asus Rog';
+  color: #27ad46;
+}
+.icon {
+  width: 20%;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+/* animation */
+.img-hover-zoom {
+  width: 100%;
+
+  overflow: hidden;
+}
+.img-hover-zoom img {
+  transition: transform 2s ease;
+  object-fit: cover;
+  width: 100%;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
